@@ -1,0 +1,27 @@
+{
+  "name": "clean-architecture-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node  src/server.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5"
+  }
+}
